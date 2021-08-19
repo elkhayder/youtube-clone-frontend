@@ -1,0 +1,26 @@
+@import url("https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: inherit;
+}
+
+html {
+   --muted-font-color: #606060;
+   --less-muted-font-color: #3b3b3b;
+   --muted-border-color: #d3d3d3;
+   --focus-border-color: #452abb;
+   --selected-nav-item-icon-color: #f00;
+   --selected-nav-item-background-color: #e3e3e3;
+   --selected-nav-item-hover-background-color: #d3d3d3;
+   --nav-item-hover-background-color: #f0f0f0;
+   --video-card-hover-channel-name: #030303;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
+   background: white;
+}

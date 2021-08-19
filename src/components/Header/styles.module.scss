@@ -1,0 +1,89 @@
+$header_height: 3.5rem;
+
+.container {
+   width: 100%;
+   height: $header_height;
+   padding: 0 1rem;
+
+   position: sticky;
+   top: 0;
+   left: 0;
+   right: 0;
+
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+   * {
+      color: var(--muted-font-color);
+   }
+}
+
+.container,
+.flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1rem;
+}
+
+.nav_mid {
+   flex: 1;
+   justify-content: center;
+   gap: 0;
+}
+
+.nav_end {
+   gap: 0.25rem;
+}
+
+.logo {
+   height: 1.25rem;
+}
+
+.search_input {
+   width: 50%;
+   max-width: 28rem;
+   height: 2rem;
+   padding: 0.5rem 0.75rem;
+   outline: none;
+   border: 1px solid var(--muted-border-color);
+   border-radius: 0.125rem 0 0 0.125rem;
+
+   &:focus {
+      border-color: var(--focus-border-color);
+   }
+}
+
+.search_button {
+   height: 2rem;
+   width: 4rem;
+   cursor: pointer;
+   outline: none;
+   border: 1px solid var(--muted-border-color);
+   border-left: none;
+
+   i {
+      font-size: 0.8125rem;
+   }
+
+   &:active {
+      background-color: var(--muted-border-color);
+   }
+}
+
+.user_profile_button {
+   width: 2rem;
+   height: 2rem;
+   margin-left: 1rem;
+   margin-right: 0.5rem;
+
+   &:focus {
+      border-color: var(--focus-border-color);
+   }
+}
+
+.user_profile_image {
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+   border-radius: 2rem;
+}
