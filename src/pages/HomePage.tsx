@@ -3,7 +3,7 @@ import VideoCard from "../components/VideoCard";
 
 type HomePagePorps = {};
 
-const HomePage: React.FC<HomePagePorps> = ({}) => {
+const HomePage: React.FC<HomePagePorps> = () => {
    return (
       <div>
          <VideoCard />

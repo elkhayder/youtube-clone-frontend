@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 
 type VideoCardPorps = {};
 
-const VideoCard: React.FC<VideoCardPorps> = ({}) => {
+const VideoCard: React.FC<VideoCardPorps> = () => {
    return (
       <div className={styles.container}>
          <div className={styles.thumbnail_container}>
